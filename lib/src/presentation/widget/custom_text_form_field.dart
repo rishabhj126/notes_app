@@ -133,7 +133,7 @@ class CustomTextFormField extends StatelessWidget {
         case TextFieldType.phoneNumber:
           return TextInputType.phone;
         case TextFieldType.text:
-          return TextInputType.text;
+          return TextInputType.multiline;
       }
     }
 
